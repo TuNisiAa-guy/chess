@@ -1,4 +1,6 @@
 package me.tunisiaa.figures;
 
-public class Knight {
+import me.tunisiaa.Figure;
+
+public class Knight extends Figure {
 }
