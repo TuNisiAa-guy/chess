@@ -1,8 +1,12 @@
 package me.tunisiaa;
 
+import javax.swing.*;
+
 public class Main {
     public static void main(String[] args) {
-        ChessBoard c = new ChessBoard();
-        c.setVisible(true);
+        JFrame jf = new JFrame();
+        ChessBoard cb = new ChessBoard();
+        jf.add(cb);
+        jf.setVisible(true);
     }
 }
